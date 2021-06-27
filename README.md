@@ -1,7 +1,7 @@
 # Sorting-Algorithm-Visualizer
 A simple Python based visualizer to visualize various sorting algorithms
 
-## The visualizer currently supports following sorting algortihms:
+### The visualizer currently supports following sorting algortihms:
  - Bubble Sort
  - Insertion Sort
  - Merge Sort
