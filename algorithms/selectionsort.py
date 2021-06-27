@@ -9,7 +9,7 @@ def selection_sort(data, drawData, timeTick):
                 minimum = k
         
         data[minimum], data[i] = data[i], data[minimum]
-        drawData(data, [YELLOW if x == minimum or x == i else BLUE for x in range(len(data))])
+        drawData(data, [YELLOW if x == minimum or x == i else BARS for x in range(len(data))])
         time.sleep(timeTick)
 
-    drawData(data, [BLUE for x in range(len(data))])
+    drawData(data, [BARS for x in range(len(data))])
